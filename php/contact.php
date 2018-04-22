@@ -48,7 +48,7 @@ $address = "sherpa.tsering2011@gmail.com";
 // Example, $e_subject = '$name . ' has contacted you via Your Website.';
 
 $e_subject = 'You have been contacted by ' . $name . '.';
-$e_subject = $name . ' has contacted you via Your Website.';
+
 
 // Configuration option.
 // You can change this if you feel that you need to.
@@ -82,4 +82,3 @@ if(mail($address, $e_subject, $msg, $headers)) {
 	echo 'ERROR!';
 
 }
-?>
