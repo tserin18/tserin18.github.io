@@ -30,7 +30,7 @@ function init() {
     // Create the Google Map using out element and options defined above
     var map = new google.maps.Map(mapElement, mapOptions);
     
-    var addresses = ['Brooklyn'];
+    var addresses = ['Los Angeles'];
 
     var marker = new google.maps.Marker({
         position: map.getCenter(),
