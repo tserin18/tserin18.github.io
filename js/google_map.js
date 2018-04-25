@@ -29,8 +29,6 @@ function init() {
 
     // Create the Google Map using out element and options defined above
     var map = new google.maps.Map(mapElement, mapOptions);
-    
-    var addresses = ['Brooklyn'];
 
     var marker = new google.maps.Marker({
         position: map.getCenter(),
@@ -38,7 +36,7 @@ function init() {
           path: google.maps.SymbolPath.CIRCLE,
           scale: 10
         },
-        draggable: true,
+        draggable: False,
         map: map
       });
       
