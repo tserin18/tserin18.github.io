@@ -4,7 +4,7 @@ var google;
 function init() {
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-    // var myLatlng = new google.maps.LatLng(40.71751, -73.990922);
+    // var myLatlng = new google.maps.LatLng(34.0413388, -118.38095950000002);
     var myLatlng = new google.maps.LatLng(34.0413388, -118.38095950000002);
     // 39.399872
     // -8.224454
@@ -29,19 +29,19 @@ function init() {
 
     // Create the Google Map using out element and options defined above
     var map = new google.maps.Map(mapElement, mapOptions);
-
+  
     var marker = new google.maps.Marker({
         position: map.getCenter(),
         icon: {
           path: google.maps.SymbolPath.CIRCLE,
           scale: 10
         },
-        draggable: False,
+        draggable: false,
         map: map
       });
-      
-    marker.addListener('click', function() {
-        window.open("https://goo.gl/maps/JYcPCTHuYaS2",'_blank');
-    });
+    
+      marker.addListener('click', function() {
+        window.open('https://goo.gl/maps/JYcPCTHuYaS2','_blank');
+      }); 
 }
 google.maps.event.addDomListener(window, 'load', init);
