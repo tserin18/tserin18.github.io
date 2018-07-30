@@ -1,20 +1,20 @@
 # tserin18.github.io
 My Resume Porfolio
 
-##About Me
+## About Me
   Short description about me.
   
-##Skills
+## Skills
   My skillset and field of expertise.
   
-##Experience
+## Experience
   My previous experiences.
 
-##Education
+## Education
   My academic qualifications and trainings received.
 
-##Portfolio
+## Portfolio
   Projects and accomplished works.
 
-##Contact
+## Contact
   My contact details.
