@@ -42,7 +42,7 @@ function init() {
       });
     
       marker.addListener('click', function() {
-        window.open('https://goo.gl/maps/JYcPCTHuYaS2','_blank');
+        window.open('https://goo.gl/maps/GnpCi93hgRjaePYU8','_blank');
       }); 
 }
 google.maps.event.addDomListener(window, 'load', init);
